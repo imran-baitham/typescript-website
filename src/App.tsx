@@ -25,7 +25,7 @@ function App() {
     },
   ];
   return (
-    <div className="App">
+    <div className="App bg-gray-800 text-white h-screen">
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Greet name="imran baitham" messageCount={20} isLogIn={true} />
       <Person name={personName} />
